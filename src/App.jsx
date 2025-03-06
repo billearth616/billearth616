@@ -1,9 +1,9 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import AboutPage from './pages/AboutPage';
 import Header from './components/Header';
-import {AnimatePresence} from 'framer-motion'
+import { AnimatePresence } from 'framer-motion'
 import AnimatedPage from './pages/AnimatedPage';
 import Contact from './pages/Contact'
 import CursorSpotlight from './components/CursorSpotlight';
